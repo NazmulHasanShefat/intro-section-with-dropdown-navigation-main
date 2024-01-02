@@ -16,7 +16,6 @@ let arrow2 = document.querySelector(".arrow_2");
     openBtn.style.display = "none";
     mobileNav.classList.toggle("open");
     document.body.style.backgroundColor = "#cfcfcf";
-    document.body.classList.toggle("hidden-scroling");
   });
  closeBtn.addEventListener("click", function(){
     openBtn.style.display = "block";

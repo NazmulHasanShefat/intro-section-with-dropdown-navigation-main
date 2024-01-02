@@ -265,9 +265,6 @@ span{
    .open{
     display: block;
    }
-   body.hidden-scroling{
-    overflow-y: hidden;
-   }
    .nav-item-main .manu-item .sub_manu.active_drop{
     max-height:max-content;
     overflow-y:visible;
