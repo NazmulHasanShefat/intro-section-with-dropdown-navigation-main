@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none; 
+      color:#8d4cb5ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <nav>
+        <div class="nav-continer">
+          <!-- For logos -->
+        <div class="nav-logo-container">
+          <div class="nav-logo"><img src="images/logo.svg" alt=""></div>
+        </div>
+        <!-- This is menu bar -->
+        <div class="manu-bar-container">
+          <img src="images/icon-menu.svg" class="manu-open-bar" alt="">
+        </div>
+       <div class="all-nav-items">
+        <div class="nav-close-button">
+          <img src="images/icon-close-menu.svg" class="close-btn" alt="">
+        </div>
+        <!-- end menu bar -->
+        <!-- nav all list -->
+        <div class="nav-list">
+          <ul class="nav-item-main">
+            <li class="manu-item manu-item-has-children"><a href="#">Features <span><img src="images/icon-arrow-down.svg" class="arrow-icon" alt=""></span></a>
+            <ul class="sub_manu drop_sub_manu">
+              <li class="sub_list"><a href="#"> <span><img src="images/icon-todo.svg" alt=""></span>To do list</a></li>
+              <li class="sub_list"><a href="#"> <span><img src="images/icon-calendar.svg" alt=""></span>Calender</a></li>
+              <li class="sub_list"><a href="#"> <span><img src="images/icon-reminders.svg" alt=""></span>Reminders</a></li>
+              <li class="sub_list"><a href="#"> <span><img src="images/icon-planning.svg" alt=""></span>planing</a></li>
+            </ul>
+            </li>
+
+            <li class="manu-item manu-item2 manu-item-has-children"><a href="#">Company<span><img src="images/icon-arrow-down.svg" class="arrow-icon arrow_2" alt=""></span></a>
+              <ul class="sub_manu2">
+                <li class="sub_list"><a href="#">History</a></li>
+                <li class="sub_list"><a href="#">our team</a></li>
+                <li class="sub_list"><a href="#">Blog</a></li>
+              </ul>
+            
+            </li>
+            <li class="manu-item"><a href="#">Careers</a></li>
+            <li class="manu-item"><a href="#">About</a></li>
+          </ul>
+          <!-- nav buttons -->
+          <div class="nav-buttons">
+            <div class="login-button"><button type="button" class="login-btn">Login</button></div>
+            <div class="Ragister-button"><button type="button" class="Register-btn">Login</button></div>
+         </div>
+        </div>
+      
+      
+       </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- start Hero section -->
+   <section class="hero">
+    <div class="text-container">
+     <div class="hero-titel">
+      <div class="titel-box">
+      <h1 class="hero-titel-text">Make <br> Remote Work</h1>
+      </div>
+     </div>
+     <div class="hero-paragrap">
+      <div class="paragrap-box">
+        <p class="main-hero-paragrap">  Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+      </div>
+     </div>
+     <div class="hero-button">
+      <div class="hero-button-continer">
+      <button type="button" class="hero-btn">Learn more</button>
+      </div>
+     </div>
+     <div class="hero-logos">
+      <div class="hero-logo-box">
+        <div class="logo-1"><img src="images/client-databiz.svg" alt=""></div>
+        <div class="logo-1"><img src="images/client-audiophile.svg" alt=""></div>
+        <div class="logo-1"><img src="images/client-meet.svg" alt=""></div>
+        <div class="logo-1"><img src="images/client-maker.svg" alt=""></div>
+      </div>
+     </div>
+    </div>
+    <div class="image-container">
+      <div class="hero-image-box">
+        <img src="images/image-hero-desktop.png" class="hero-main-img" alt="">
+      </div>
+    </div>
+   </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Md Nazmul Hasan</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
