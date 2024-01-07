@@ -444,7 +444,20 @@ span{
     .hero-paragrap {
         width: 100%;
         justify-content: left;
-        margin-left:20px;
+        margin-left:0;
         height: max-content;
     }
+    .main-hero-paragrap{
+        margin-left:20px;
+    }
+    .hero-btn{
+        margin-top:10px;
+        margin-left:0;
+        height:50px;
+        width: 180px;
+    }
+    .hero-button-continer {
+        width: 74%;
+    }
+
 }
