@@ -457,7 +457,12 @@ span{
         width: 180px;
     }
     .hero-button-continer {
+        height: max-content;
         width: 74%;
+        margin-top:10px;
+    }
+    .all-nav-items .nav-list .nav-item-main li {
+        padding: 7px 4px;
     }
 
 }
