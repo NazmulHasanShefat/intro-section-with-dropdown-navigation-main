@@ -440,16 +440,7 @@ span{
     .hero-main-img {
         height: 300px;
     }
-    /* hero paragrap */
-    .hero-paragrap {
-        width: 100%;
-        justify-content: left;
-        margin-left:0;
-        height: max-content;
-    }
-    .main-hero-paragrap{
-        margin-left:20px;
-    }
+    /* hero button */
     .hero-btn{
         margin-top:10px;
         margin-left:0;
@@ -459,7 +450,20 @@ span{
     .hero-button-continer {
         height: max-content;
         width: 74%;
-        margin-top:10px;
+    }
+    /* hero paragrap */
+    .paragrap-box {
+        width: 95%;
+        height: 90px;
+    }
+    .hero-paragrap {
+        width: 100%;
+        justify-content: left;
+        margin-left:0;
+        height: max-content;
+    }
+    .main-hero-paragrap{
+        margin-left:20px;
     }
     .all-nav-items .nav-list .nav-item-main li {
         padding: 7px 4px;
