@@ -2,25 +2,6 @@
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 ## Welcome! 👋
 Thanks for checking out this front-end coding challenge.
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](./images/screnshot/Screenshot%20(61).png)
-  - [Screenshot](./images/screnshot/Screenshot%20(62).png)
-  - [Screenshot](./images/screnshot/Screenshot%20(64).png)
-  - [Screenshot](./images/screnshot/mobileResponsib1.jpg)
-  - [Screenshot](./images/screnshot/mobileResponsib2.jpg)
-  - [Links](#https://github.com/NazmulHasanShefat/intro-section-with-dropdown-navigation-main)
-  - [Myprocess] (I-used-vary-simple-HTML-CSS-JS)
-  - [Built with](#built-with)
-  - [What I learned](#HTML-CSS-JS)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -34,9 +15,8 @@ Users should be able to:
 ![](./images/screnshot/Screenshot%20(61).png)
 ![](./images/screnshot/Screenshot%20(62).png)
 ![](./images/screnshot/Screenshot%20(64).png)
-![](./images/screnshot/mobileResponsib1.jpg)
-![](./images/screnshot/mobileResponsib2.jpg)
-
+ <img src = "./images/screnshot/mobileResponsib1.jpg" height = "500" width = "200"/>
+ <img src = "./images/screnshot/mobileResponsib2.jpg" height = "500" width = "200"/>
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
